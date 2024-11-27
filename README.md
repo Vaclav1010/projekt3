@@ -5,8 +5,10 @@
 Tento projekt scrappuje výsledky voleb z roku 2017 pro vybraný územní celek.
 
 # Nainstaluj knihovny 
-Použité knihovny třetích stran jsou uloženy v souboru requirements.txt\n
+Použité knihovny třetích stran jsou uloženy v souboru requirements.txt
+
 Doporučuji použít virtuální prostředí a v terminálu napsat:
+
 pip install -r requirements.txt
 
 # Spuštění
