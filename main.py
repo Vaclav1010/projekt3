@@ -95,8 +95,8 @@ def collect_voting_data():
     """Načítá data o voličích a hlasování pro každou obec."""
     town_links = extract_town_links()
     for index, link in enumerate(town_links):
-        # Logování každé dvě sekundy
-        if index % 50 == 0:  # Každých 5 iterací
+        # Logování po počtu iterací
+        if index % 50 == 0:  # Každých 50 iterací
             logging.info(f"Stahuji data...")
 
         parsed_html = fetch_html(link)
