@@ -17,7 +17,6 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(),  # Logy do konzole
-        logging.FileHandler("election_scraper.log", encoding="utf-8")  # Logy do souboru
     ]
 )
 
