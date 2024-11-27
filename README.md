@@ -13,7 +13,9 @@ pip install -r requirements.txt
 
 # Spuštění
 Spuštění souboru v příkazové řádce požaduje dva argumenty.
+
 V příkazové řádce zadej: python main.py <URL územního celku> <výstupní soubor.csv>
+
 Následně bude výsledek uložen do souboru s příponou .csv.
 
 # Příklad
@@ -21,9 +23,13 @@ Následně bude výsledek uložen do souboru s příponou .csv.
 
  # Ukázka projektu
  Výsledky hlasování pro okres Benešov:
+ 
  1. argument : https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101
+    
  2. argument: volby2017.csv
+    
 Spouštění programu:  python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby2017"
+
 ![image](https://github.com/user-attachments/assets/bb09df68-ca47-47c4-a800-25e1be646cc5)
 
 
